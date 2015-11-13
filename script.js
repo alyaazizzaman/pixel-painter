@@ -36,6 +36,10 @@ colorPalette.addEventListener("click", function (event)  {
       paintingCanvas.addEventListener("click", function (event) {
           event.target.style.backgroundColor = "black";
       })
+  } else if (event.target.style.backgroundColor === "brown") {
+      paintingCanvas.addEventListener("click", function (event) {
+          event.target.style.backgroundColor = "brown";
+      })
     };
 });
 
