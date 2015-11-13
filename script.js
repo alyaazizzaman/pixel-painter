@@ -12,7 +12,31 @@ colorPalette.addEventListener("click", function (event)  {
       paintingCanvas.addEventListener("click", function (event) {
           event.target.style.backgroundColor = "purple";
         });
-  };
+  } else if (event.target.style.backgroundColor === "orange") {
+      paintingCanvas.addEventListener("click", function (event) {
+          event.target.style.backgroundColor = "orange";
+        });
+  } else if (event.target.style.backgroundColor === "yellow") {
+      paintingCanvas.addEventListener("click", function (event) {
+          event.target.style.backgroundColor = "yellow";
+        });
+  } else if (event.target.style.backgroundColor === "blue") {
+      paintingCanvas.addEventListener("click", function (event) {
+          event.target.style.backgroundColor = "blue";
+        });
+  } else if (event.target.style.backgroundColor === "green") {
+      paintingCanvas.addEventListener("click", function (event) {
+          event.target.style.backgroundColor = "green";
+        });
+  } else if (event.target.style.backgroundColor === "white") {
+      paintingCanvas.addEventListener("click", function (event) {
+          event.target.style.backgroundColor = "white";
+        });
+  } else if (event.target.style.backgroundColor === "black") {
+      paintingCanvas.addEventListener("click", function (event) {
+          event.target.style.backgroundColor = "black";
+      })
+    };
 });
 
 //add event listener that changes divs upon click
