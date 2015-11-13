@@ -2,8 +2,16 @@
 
 .square {
   border: 1px solid grey;
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  float: left;
+}
+
+.paletteSquare {
+  border: 1px solid grey;
+  height: 35px;
+  width: 35px;
   display: inline-block;
   float: left;
 }
