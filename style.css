@@ -1,5 +1,4 @@
 /*style divs*/
-
 .square {
   border: 1px solid grey;
   height: 20px;
@@ -13,11 +12,9 @@
   height: 35px;
   width: 35px;
   display: inline-block;
-  float: left;
 }
 
 #palette {
-  float: left;
+  margin-left: 400px;
+  margin-right:400px
 }
-
-/*give color palette divs style*/
