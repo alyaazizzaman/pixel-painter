@@ -1,0 +1,11 @@
+/*style divs*/
+
+.square {
+  border: 1px solid grey;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  float: left;
+}
+
+/*give color palette divs style*/

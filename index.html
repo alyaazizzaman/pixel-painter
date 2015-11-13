@@ -3,20 +3,31 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pixel Painter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <script language="javascript" type="text/javascript" src="script.js"></script>
+  <!-- //create 10 divs - later: add enough divs to fill up screen -->
+  <div id="paintingCanvas">
+    <div class="square" style="background-color:white;"></div>
+    <div class="square" style="background-color:white;"></div>
+    <div class="square" style="background-color:white;"></div>
+    <div class="square" style="background-color:white;"></div>
+    <div class="square" style="background-color:white;"></div>
+    <div class="square" style="background-color:white;"></div>
+    <div class="square" style="background-color:white;"></div>
+    <div class="square" style="background-color:white;"></div>
+    <div class="square" style="background-color:white;"></div>
+    <div class="square" style="background-color:white;"></div>
+  </div>
+
+  <!-- add color palette div with two colors so user can select "paintbrush" colors
+  later: add rest of rainbow to palette -->
+
+  <div class="palette.red"></div>
+  <div class="palette.purple"></div>
+
+<script language="javascript" type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
